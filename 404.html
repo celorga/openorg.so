@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>OpenOrg is now Celorga</title>
+<meta name="robots" content="noindex">
+<script>
+(function () {
+  var renamed = {"openorg-and-org2.html":"architecture.html","org2-vs-markdown.html":"celorga-vs-markdown.html","org2-vs-obsidian.html":"celorga-vs-obsidian.html","org2-vs-org-mode.html":"celorga-vs-org-mode.html"};
+  var path = location.pathname.replace(/^\//, "");
+  location.replace("https://celorga.io" + "/" + (renamed[path] || path) + location.search + location.hash);
+})();
+</script>
+</head>
+<body>
+<p>OpenOrg is now <a href="https://celorga.io/">Celorga</a>.</p>
+</body>
+</html>
